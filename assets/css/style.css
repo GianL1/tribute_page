@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.flex {
+    display: flex;
+}
+
+.banner {
+    background-image: url('../images/pele.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1080px;
+}
+
+.nome {
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+}
+
+.about {
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.text_image {
+    border-top: 1px solid white;
+    display: flex;
+}
+
+.text {
+    flex: 2;
+}
+
+.imagens{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.imagens img {
+    margin: 10px;
+}
+
+
+.conquistas {
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
